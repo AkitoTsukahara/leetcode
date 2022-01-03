@@ -10,6 +10,8 @@ class Solution {
     /**
      * @param String $s
      * @return Integer
+     * この解法ポイントは後ろから左隣のローマ数字が自身よりも小さい場合に減算、
+     * 大きい場合に加算するロジックをプログラムにすること
      */
     function romanToInt($s) {
         $sArray = str_split($s);
